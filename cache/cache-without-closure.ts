@@ -17,5 +17,5 @@ export function createExpensiveCalculation(n: number) {
 const expensiveCalculation1 = createExpensiveCalculation(2);
 const expensiveCalculation2 = createExpensiveCalculation(2);
 
-expensiveCalculation1(); // miss 2
-expensiveCalculation2(); // hit 2
+console.log(expensiveCalculation1); // miss 2
+console.log(expensiveCalculation2); // hit 2
